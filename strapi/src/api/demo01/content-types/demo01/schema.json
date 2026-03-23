@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "demo01s",
+  "info": {
+    "singularName": "demo01",
+    "pluralName": "demo01s",
+    "displayName": "demo01"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "snjyjson": {
+      "type": "json"
+    },
+    "sanjay": {
+      "type": "string"
+    },
+    "snjynumber": {
+      "type": "biginteger"
+    },
+    "snjyimg": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "snjydatee": {
+      "type": "date"
+    }
+  }
+}
